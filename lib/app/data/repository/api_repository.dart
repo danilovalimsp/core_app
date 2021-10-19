@@ -7,8 +7,14 @@ class ApiRepository {
     _client = Dio();
   }
 
-  login() async {
+  getPosts() async {
     await _client.post("https://jsonplaceholder.typicode.com/users");
+
+    return true;
+  }
+
+  login() async {
+    await Future.delayed(Duration(seconds: 3));
 
     return true;
   }
