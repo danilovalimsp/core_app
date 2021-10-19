@@ -1,4 +1,4 @@
-import 'package:dio/dio.dart';
+import 'package:commons_app/app/dependencies/app_dependencies.dart';
 
 class ApiRepository {
   late final Dio _client;

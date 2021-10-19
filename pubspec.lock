@@ -43,8 +43,17 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.15.0"
-  dio:
+  commons_app:
     dependency: "direct main"
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: e90d97d59f0a8e72eceb7859d54d4ac73795390f
+      url: "https://github.com/danilovalimsp/commons_app.git"
+    source: git
+    version: "0.0.1"
+  dio:
+    dependency: transitive
     description:
       name: dio
       url: "https://pub.dartlang.org"
