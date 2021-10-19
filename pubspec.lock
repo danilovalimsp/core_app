@@ -48,7 +48,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: e90d97d59f0a8e72eceb7859d54d4ac73795390f
+      resolved-ref: e19ac67058e19fc3e61bf1ef228a7993011de8d5
       url: "https://github.com/danilovalimsp/commons_app.git"
     source: git
     version: "0.0.1"
@@ -76,6 +76,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  get:
+    dependency: transitive
+    description:
+      name: get
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "4.3.8"
   http_parser:
     dependency: transitive
     description:
